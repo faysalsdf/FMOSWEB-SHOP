@@ -1,0 +1,1241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.mainhedar {
+    width: 70%;
+    align-items: center;
+    
+    margin: 10px auto;
+    display: flex;
+}
+.logo {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+#logo {
+    height:70px;
+    width: auto;
+    margin-left: 35px;
+}
+.lis2 input {
+    margin-left:120px;
+    width: 550px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid  rgb(109, 230, 235);
+    
+}
+.lis .fa-magnifying-glass {
+    display: none;
+}
+.fa-bag-shopping {
+    margin-left: 120px;
+    font-size: 37px;
+    color: rgb(70, 198, 202);
+}
+.lis button {
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(97, 211, 177);
+    border: 2px solid rgb(109, 230, 235);
+    font-size: 17px;
+    
+}
+.lis button:hover{
+    background-color: green;
+    color: #ffffff;
+}
+.lis .fa-bars {
+    display: none;
+ 
+}
+.op {
+    height: 55px;
+    background:linear-gradient(to right, rgb(122, 209, 212),rgb(105, 209, 113));
+    width: 100%;
+    display: flex;
+    
+}
+.op ul li{
+    float:inline-start;
+    padding-left:  30px;
+    padding-top: 15px;
+    list-style: none;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.op ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.op ul li a:hover{
+    color: green;
+    font-size: 20px;
+}
+main {
+    
+    width: 70%;
+    text-align: center;
+    
+    margin:10px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows:100px ;
+    grid-template-columns: repeat(3,1fr);
+    height: 500px;
+}
+
+.box1 {
+    overflow: hidden;
+    border: 2px solid rgb(109, 230, 235);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    border-radius: 5px;
+    
+}
+.box1:hover{
+    margin-top: 
+    0px;
+}
+.box1 img {
+    height:550px ;
+}
+.box2 {
+    overflow: hidden;
+    grid-row: 1/3;
+    border: 2px solid rgb(109, 230, 235);
+    border-radius: 5px;
+}
+.box2 img {
+    height: 550px;
+    width:450px;
+}
+.fulnic {
+    
+    height: 350px;
+    background-color: rgb(242, 245, 247);
+    border: 2px solid rgb(109, 230, 235)ck;
+}
+.fulnic h1 {
+    margin-left: 280px;
+    font-size: 35px;
+    padding: 10px;
+    
+}
+.fulnic hr {
+    width: 70%;
+    margin: 10px auto;
+    color:rgb(109, 230, 235);;
+}
+.nic {
+    height: 150px;
+    
+    width: 70%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    margin: 30px auto;
+}
+.box3 {
+    display: flex;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    border: 2px solid  rgb(109, 230, 235);
+}
+.box3:hover{
+    box-shadow: -15px -15px 15px;
+    box-shadow: 15px 15px 15px;
+    border: 5px blue;
+    
+
+}
+.box3 .so3 {
+    height: 148px;
+    width: 170px;
+    
+    overflow: hidden;
+}
+.box3 .so3 img {
+    height: 145px;
+    width: 165px;
+    
+}
+
+.box3 .ao3 {
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    height: 148px;
+    width: 160px;
+    
+    float: left;
+}
+.box3 .ao3 h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.box3 .ao3 span {
+    text-decoration:line-through;
+    opacity: 50%;
+}
+.box3 .ao3 button{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 140px;
+    height: 28px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.box3 .ao3 button:hover{
+    background-color: green;
+    margin-bottom: 20px;
+}
+.box4 {
+    display: flex;
+    overflow: hidden;
+    border: 2px solid  rgb(109, 230, 235);
+    transition-duration: 0.5s
+}
+.box4:hover {
+     box-shadow: 15px 15px 15px ;
+    border: 5px blue;
+}
+.box4 .so3 {
+    height: 148px;
+    width: 170px;
+    
+    overflow: hidden;
+}
+.box4 .so3 img {
+    height: 145px;
+    width: 165px;
+    
+}
+
+.box4 .ao3 {
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    height: 148px;
+    width: 160px;
+    
+    float: left;
+}
+.box4 .ao3 h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.box4 .ao3 span {
+    text-decoration:line-through;
+    opacity: 50%;
+}
+.box4 .ao3 button{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 140px;
+    height: 28px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.box4 .ao3 button:hover{
+    background-color: green;
+    margin-bottom: 20px;
+}
+.box5 {
+   display: flex;
+    overflow: hidden;
+    border: 2px solid  rgb(109, 230, 235);
+    transition-duration: 0.5s
+}
+
+.box5:hover {
+     box-shadow: 15px 15px 15px;
+    border: 5px blue;
+}
+.box5 .so3 {
+    height: 148px;
+    width: 170px;
+    
+    overflow: hidden;
+}
+.box5 .so3 img {
+    height: 145px;
+    width: 165px;
+    
+}
+
+.box5 .ao3 {
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    height: 148px;
+    width: 160px;
+    
+    float: left;
+}
+.box5 .ao3 h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.box5 .ao3 span {
+    text-decoration:line-through;
+    opacity: 50%;
+}
+.box5 .ao3 button{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 140px;
+    height: 28px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.box5 .ao3 button:hover{
+    background-color: green;
+    margin-bottom: 20px;
+}
+.box6 {
+    display: flex;
+    overflow: hidden;
+    border: 2px solid  rgb(109, 230, 235);
+    transition-duration: 0.5s
+}
+.box6:hover {
+     box-shadow: 15px 15px 15px;
+    border: 5px blue;
+}
+.box6 .so3 {
+    height: 148px;
+    width: 170px;
+    
+    overflow: hidden;
+}
+.box6 .so3 img {
+    height: 145px;
+    width: 165px;
+    
+}
+
+.box6 .ao3 {
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    height: 148px;
+    width: 160px;
+    
+    float: left;
+}
+.box6 .ao3 h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.box6 .ao3 span {
+    text-decoration:line-through;
+    opacity: 50%;
+}
+.box6 .ao3 button{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 140px;
+    height: 28px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.box6 .ao3 button:hover{
+    background-color: green;
+    margin-bottom: 20px;
+}
+.prodact hr {
+    width: 70%;
+    margin: 10px auto;
+    color:  rgb(109, 230, 235);
+}
+.hh {
+    width: 70%;
+    margin:10px auto;
+    
+}    
+
+.hh h1{
+    
+    font-size: 45px;
+    padding-top:10px;
+    
+}
+
+.po {
+    
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows:380px 380px 380px ;
+    grid-template-columns: repeat(15,1fr) ;
+    height: auto;
+}
+.box11 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/4;
+    overflow: hidden;
+}
+.box11 img{
+    height:268px ;
+    
+}
+.box11 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box11 h2 {
+    font-size: 21px;
+}
+.box11 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box11 button:hover{
+    background-color: green;
+    color: black;
+}
+.box12 {
+   overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 4/7;
+}
+.box12 img{
+    height:268px ;
+    
+}
+.box12 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box12 h2 {
+    font-size: 21px;
+}
+.box12 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box12 button:hover{
+    background-color: green;
+    color: black;
+}
+.box13 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 7/10;
+}
+.box13 img{
+    height:268px ;
+    
+}
+.box13 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box13 h2 {
+    font-size: 21px;
+}
+.box13 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box13 button:hover{
+    background-color: green;
+    color: black;
+}
+.box14 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 10/13;
+}
+.box14 img{
+    height:268px ;
+    
+}
+.box14 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box14 h2 {
+    font-size: 21px;
+}
+.box14 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box14 button:hover{
+    background-color: green;
+    color: black;
+}
+.box15 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 13/16;
+}
+.box15 img{
+    height:268px ;
+    
+}
+.box15 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box15 h2 {
+    font-size: 21px;
+}
+.box15 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box15 button:hover{
+    background-color: green;
+    color: black;
+}
+.box16 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/4;
+}
+.box16 img{
+    height:268px ;
+    
+}
+.box16 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box16 h2 {
+    font-size: 21px;
+}
+.box16 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box16 button:hover{
+    background-color: green;
+    color: black;
+}
+.box17 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 4/7;
+}
+.box17 img{
+    height:268px ;
+    
+}
+.box17 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box17 h2 {
+    font-size: 21px;
+}
+.box17 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box17 button:hover{
+    background-color: green;
+    color: black;
+}
+.box18 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 7/10;
+}
+.box18 img{
+    height:268px ;
+    
+}
+.box18 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box18 h2 {
+    font-size: 21px;
+}
+.box18 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box18 button:hover{
+    background-color: green;
+    color: black;
+}
+
+.box19 {
+   overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 10/13;
+}
+.box19 img{
+    height:268px ;
+    
+}
+.box19 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box19 h2 {
+    font-size: 21px;
+}
+.box19 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box19 button:hover{
+    background-color: green;
+    color: black;
+}
+.box20 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 13/16;
+}
+.box20 img{
+    height:268px ;
+    
+}
+.box20 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box20 h2 {
+    font-size: 21px;
+}
+.box20 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box20 button:hover{
+    background-color: green;
+    color: black;
+}
+.box21 {
+   overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/4;
+}
+.box21 img{
+    height:268px ;
+    
+}
+.box21 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box21 h2 {
+    font-size: 21px;
+}
+.box21 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box21 button:hover{
+    background-color: green;
+    color: black;
+}
+.box22 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 4/7;
+}
+.box22 img{
+    height:268px ;
+    
+}
+.box22 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box22 h2 {
+    font-size: 21px;
+}
+.box22 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box22 button:hover{
+    background-color: green;
+    color: black;
+}
+.box23 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 7/10;
+}
+.box23 img{
+    height:268px ;
+    
+}
+.box23 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box23 h2 {
+    font-size: 21px;
+}
+.box23 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box23 button:hover{
+    background-color: green;
+    color: black;
+}
+.box24 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 10/13;
+}
+.box24 img{
+    height:268px ;
+    
+}
+.box24 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box24 h2 {
+    font-size: 21px;
+}
+.box24 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box24 button:hover{
+    background-color: green;
+    color: black;
+}
+.box25 {
+    overflow: hidden;
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 13/16;
+}
+.box25 img{
+    height:268px ;
+    
+}
+.box25 h1 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.box25 h2 {
+    font-size: 21px;
+}
+.box25 button {
+    padding: 6px;
+    margin-top: 5px;
+    background-color:rgb(107, 213, 255) ;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white ;
+    font-size: 15px;
+}
+.box25 button:hover{
+    background-color: green;
+    color: black;
+}
+/* footer start */
+
+footer {
+    height: 400px;
+    display: flex;
+    background:linear-gradient(rgb(14, 114, 207),rgb(6, 87, 90));
+    text-align: center;
+    margin-top: 100px;
+}
+.lll {
+    float: left;
+    margin-left: 400px;
+    padding-top: 95px;
+}
+.lll img {
+    height: 70px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+.lll h2 {
+    padding-top: 40px;
+    width: 425px;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    
+}
+.lll i {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(17, 174, 202);
+}
+.lin {
+    width: 140px;
+     margin-left: 200px;
+     padding-top: 130px;
+     font-size: 20px;
+     color: #ffffff;
+
+}
+.lin li {
+    list-style: none;
+    text-align: justify;
+}
+.lin h4 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.sup {
+    flot:left;
+    margin-left:180px;
+    font-size: 35px;
+    padding-top: 130px;
+    
+    color: #ffffff;
+
+}
+.sup i {
+    font-size: 20px;
+    
+    width: 300px;
+}
+.sup h5 {
+    padding-bottom: 35px;
+}
+.last {
+    height: 40px;
+    background-color: rgb(32, 24, 24);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* mobail vew */
+@media (max-width:768px) {
+    main {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows:100px ;
+    grid-template-columns: repeat(10,1fr);
+    height: 270px;
+   
+    }
+.mainhedar {
+    width: 100%;
+    align-items: center;
+    height: 68px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    position:fixed;
+    background-color: #ffffff;
+    top: -12px;
+    
+}
+    .lis2 input {
+    margin-left:15px;
+    display: none;
+    
+}
+#logo {
+    height:58px;
+    width: auto;
+    margin-left: 5px;
+    padding-top: 20px;
+}
+.lis .fa-magnifying-glass {
+    display: inline;
+    font-size: 25px;
+    margin-left: 190px;
+    top: 0;
+}
+.fa-bag-shopping {
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(70, 198, 202);
+}
+.lis button {
+    display: none;
+}
+.lis .fa-bars {
+    display:inline-block;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.hed {
+    display: none;
+}
+.box2 {
+    display: none;
+}
+
+.box1 {
+    overflow: hidden;
+    border: 2px solid rgb(109, 230, 235);
+    grid-column:1/11;
+    grid-row:270px;
+    border-radius: 5px;
+}
+.box1 img {
+    height:270px;
+    width:auto ;
+}
+.fulnic h1 {
+    margin-left: 0;
+    font-size: 30px;
+    padding: 10px;
+}
+.fulnic hr {
+    width: 100%;
+    color: red;
+}
+.fulnic {
+    height: 800px;
+    width: 100%;
+    margin-top: 0px;
+}
+.nic {
+    height: 650px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+    
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+}
+.box3 {
+    width: 95%;
+}
+.box4 {
+    margin-top: 10px;
+    
+    width: 95%;
+}
+.box5 {
+    margin-top: 10px;
+    width: 95%;
+}
+.box6 {
+    margin-top: 10px;
+    width: 95%;
+}
+
+
+
+.hh h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 0px;
+   
+}
+.prodact {
+    margin-top: 10px;
+}
+
+
+.prodact hr {
+    width: 100%;
+}
+.po {
+    
+    width: 96%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows:380px 380px 380px ;
+    grid-template-columns: repeat(16,1fr);
+    height: auto;
+}
+.box11 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box12 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box13 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box14 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box15 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box16 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}.box17 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box18 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box19 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box20 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box21 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+.box22 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box23 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 1/9;
+    overflow: hidden;
+}
+
+.box24 {
+    
+    border: 2px solid rgb(115, 189, 218);
+    grid-column: 9/17;
+    overflow: hidden;
+}
+.box25 {
+    display: none;
+}
+
+
+
+footer {
+    height: 400px;
+    display: flex;
+    background:linear-gradient(rgb(14, 114, 207),rgb(6, 87, 90));
+    text-align: center;
+    margin-top: 60px;
+}
+.lll {
+    float: left;
+    margin-left: 10px;
+    padding-top: 105px;
+}
+.lll img {
+    height: 35px;
+    width: auto;
+    
+}
+.lll h2 {
+    padding-top: 40px;
+    width: 240px;
+    font-size: 10px;
+    text-align:left;
+    color: white;
+    padding-right: 60px;
+    
+}
+.lll i {
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(17, 174, 202);
+}
+.lin {
+    width: 110px;
+     margin-left: 10px;
+     padding-top: 107px;
+     font-size: 10px;
+     color: #ffffff;
+     text-align: justify;
+
+}
+.lin li {
+    list-style: none;
+    text-align: justify;
+    padding-top: 20px;
+}
+.lin h4 {
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.sup {
+    
+    margin-left:10px;
+    font-size: 10px;
+    padding-top: 120px;
+    
+    color: #ffffff;
+
+}
+.sup i {
+    font-size: 10px;
+    padding-top: 10px;
+    width: 190px;
+    text-align: justify;
+    
+}
+.sup h5 {
+    padding-bottom: 35px;
+    font-size: 15px;
+    text-align: left;
+}
+.last {
+    height: 40px;
+    background-color: rgb(32, 24, 24);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+.kata{ display: none;
+    
+}
+
+
+}
